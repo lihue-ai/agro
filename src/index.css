@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-digital: #10B981;
+  --color-gold-heritage: #B59410;
+  --color-snow-white: #FFFFFF;
+  --color-surface-grey: #F8FAFC;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-snow-white text-slate-900 antialiased;
+  }
+}
